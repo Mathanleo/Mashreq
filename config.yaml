@@ -39,6 +39,106 @@ intents:
     intent_name: "View Account Status"
     description: "Tag requests where customers ask about the status of their new account application—whether it was reviewed, activated, or declined. Exclude requests to open an account, resolve opening issues, account usage problems, or status checks for other products/services like cards, loans, or banking apps."
 
+  - intent_id: 6
+    intent_name: "Card Controls"
+    description: "Tag this intent when the customer wants to lock/unlock their card, permanently block it, replace a blocked card. Ignore cases where the customer reports the card not working, transactions failing/delayed, or the card not being delivered/activated."
+
+  - intent_id: 7
+    intent_name: "Dispute Transactions"
+    description: "Tag utterances where customers dispute transactions, including unauthorized debits, incorrect amounts, duplicate charges, or merchant product/service not received. Exclude ATM withdrawal issues, lost/stolen cards, delayed/wrong transfers, cashback disputes, unpaid bills, or status checks for existing disputes."
+
+  - intent_id: 8
+    intent_name: "Report Fraud"
+    description: "Tag utterances where customers explicitly report committed or attempted fraud using the term 'fraud.' Exclude transaction disputes, general complaints, or status checks for existing fraud cases"
+
+  - intent_id: 9
+    intent_name: "Block Account"
+    description: "Tag utterances where customers explicitly ask to block their account, sometimes due to fraud. Exclude requests to check block status, unblock an account, block a card, or queries about why the account was blocked"
+
+  - intent_id: 10
+    intent_name: "Unblock Account"
+    description: "Tag utterances where customers explicitly request to unblock their account or restore access after a block. Exclude status checks, reasons for block, requests to block an account, unblock a card, or activate a new account."
+
+  - intent_id: 11
+    intent_name: "Track An Existing Complaint"
+    description: "Tag this intent when a customer wants to check the status of their service request (service request queries strictly restricted to new card request or letters) or complaint made recently to the bank. The customer may mention the full or partial case reference number (E.g. REF-18255435-Q1G0L5 or Q1G0L5) , when checking for the status. Ignore requests for a new service or complaint creation or status of a transaction dispute."
+
+  - intent_id: 12
+    intent_name: "Get Paper Statement"
+    description: "Tag an utterance when the customer requests an online (e-statement) or stamped physical/paper statement for their account including variations like download, mail, or hard copy. Ignore requests for letters (IBAN, account closure, liability, clearance), certificates, or complaints related to statements."
+
+  - intent_id: 13
+    intent_name: "Update Username"
+    description: "Tag utterances where customers request to update the username for online or mobile banking. Exclude requests to change nickname, password, or any other profile details."
+
+  - intent_id: 14
+    intent_name: "Reset Password"
+    description: "Tag utterances where customers request to update or reset their online/mobile banking password, whether due to forgetting or for security. Exclude requests to change card PIN, username, nickname, security questions, or other profile details."
+
+  - intent_id: 15
+    intent_name: "Apply for a physical debit card"
+    description: "Tag utterances where customers request a new debit card or physical ATM card (first-time issuance). Exclude requests for replacement cards, card activation, or general enquiries like cost, card types, or eligibility"
+
+  - intent_id: 16
+    intent_name: "Agent Transfer"
+    description: "Tag utterances where customers request human assistance using terms like “live agent,” “service officer,” “human,” “contact center/call center,” or “agent.” Exclude requests for branch staff, insurance representatives, or RMs, and cases where the customer mentions a reason that can be handled by the bot (e.g., account closure, statements, letters)."
+
+  - intent_id: 17
+    intent_name: "View or Add Fund Transfer Payees"
+    description: "The user wants to view existing payees, verify their details, or add a new payee for fund transfers."
+
+  - intent_id: 18
+    intent_name: "View or Add Bill Payment Beneficiary"
+    description: "The user wants to view existing beneficiaries immediately or add a new beneficiary for bill payments (not keep beneficiaries unchanged)."
+
+  - intent_id: 19
+    intent_name: "Funds Transfer Status"
+    description: "The user wants to check or view the status of utility bills, past bill payments, and fund transfers."
+
+  - intent_id: 10
+    intent_name: "Update Profile Details"
+    description: "The user wants to update his profile information such as email address, permanent address, residential address, courier address, mobile number, CNIC or National ID."
+
+  - intent_id: 21
+    intent_name: "View Profile Details"
+    description: "The user wants to view his profile information such as email address, permanent address, residential address, courier address, mobile number, CNIC or National ID."
+
+  - intent_id: 22
+    intent_name: "Register A Complaint"
+    description: "The user wants to register a complaint with the bank."
+
+  - intent_id: 23
+    intent_name: "Get Account Information"
+    description: "The user wants to view his account summary such as accounts linked to his profile, account nickname, account type, current status, account currency, account number, opening date of account, and IBAN number."
+
+  - intent_id: 24
+    intent_name: "Limit Management"
+    description: "The user wants to view or change account or card limits (not confirm or keep limits unchanged)."
+
+  - intent_id: 25
+    intent_name: "Discounts and Promotions"
+    description: "The user wants to explore promotions, deals, and special offers available on their debit card, including discounts on shopping, dining, travel, apparel, electronics, health, beauty, and education. They also want to know about exclusive benefits, PAY PAK card features, and category-specific offers like salons, toys, and home living."
+
+  - intent_id: 26
+    intent_name: "Close Account"
+    description: "The user wants to close his bank account."
+
+  - intent_id: 27
+    intent_name: "Delivery Status"
+    description: "The user wants to check the delivery status of his card."
+
+  - intent_id: 28
+    intent_name: "Charges Fees And Profit"
+    description: "The user wants to view the charges applied on their account or card or the profit earned on their account."
+
+  - intent_id: 29
+    intent_name: "Debit Card PIN Reset"
+    description: "The user wants to reset his debit card PIN."
+
+  - intent_id: 30
+    intent_name: "Request for Letters"
+    description: "The user wants to request a balance certificate or an account maintenance letter."
+
 groups:
   - group_id: 1
     intents: [1, 3, 12, 28, 23]
@@ -54,6 +154,36 @@ groups:
     group_name: "Cards"
     intents: [6, 2, 15, 27, 29]
     description: "Debit card lifecycle including block, unblock, activation, delivery, and PIN reset."
+
+  - group_id: 4
+    intents: [4, 17, 18, 19, 24]
+    group_name: "Payments and Transfers"
+    description: "Fund transfers, beneficiaries, utility bill payments, limit management and transfer statuses."
+
+  - group_id: 5
+    intents: [22, 11, 16]
+    group_name: "Complaints and Case Management"
+    description: "Registering complaints, tracking cases, complaint types and agent handover"
+
+  - group_id: 6
+    intents: [8, 7]
+    group_name: "Security and Fraud"
+    description: "Fraud reporting and raise a dispute."
+
+  - group_id: 7
+    intents: [13, 14, 20, 21]
+    group_name: "Profile Access and Information"
+    description: "Profile updates, credentials, and personal information."
+
+  - group_id: 8
+    intents: [30]
+    group_name: "Letters"
+    description: "Requests for various bank letters."
+
+  - group_id: 9
+    intents: [25]
+    group_name: "Rewards and Promotions"
+    description: "Discounts, cashback, and promotional offers."
 
 report:
   generate_csv: true
