@@ -1,8 +1,9 @@
-import requests
 import json
+import time
 import backoff
 import urllib3
-import time
+import requests
+
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 OPENAI_API_KEY = "openai_api_key"
@@ -15,7 +16,9 @@ class LLMClient:
         """
         self.logger = logger
         self.config = config
+        
         # self.allowed_intents = config["intents"]
+        
         intent_mapping = config["intents"]
         group_mapping = config["groups"]
 
@@ -23,6 +26,7 @@ class LLMClient:
         self.all_groups = group_mapping
 
         # Pre-build group prompt
+        
         self.group_prompt = self.build_group_prompt()
         
     def build_group_prompt(self):
@@ -34,7 +38,6 @@ class LLMClient:
             for g in self.all_groups
         ])
         
-
         prompt = f"""
 You are a banking intent GROUP classifier.
 
@@ -98,35 +101,41 @@ Respond ONLY in valid JSON:
         token_url = self.config['auth']['token_url']
         payload = {
             "grant_type": "client_credentials",
+            "scope": self.config['auth']['scope'],
             "client_id": self.config['auth']['client_id'],
             "client_secret": self.config['auth']['client_secret'],
-            "scope": self.config['auth']['scope']
         }
+        
         headers = {
-                  'Content-Type': 'application/x-www-form-urlencoded'
-                    }
+            'Content-Type': 'application/x-www-form-urlencoded'
+        }
+        
         response = requests.post(token_url, headers=headers, data=payload, verify=False)  # SSL bypass for internal cert
+        
         return response.json().get("access_token")
 
-    @backoff.on_exception(backoff.expo, Exception, max_tries=5)
+    @backoff.on_exception(backoff.expo, Exception, max_tries = 5)
+    
     def call_llm(self, system_prompt, utterance):
         token = self.get_token()
         azure_endpoint = self.config['azure']['endpoint']
         headers = {
             "Authorization": f"Bearer {token}",
             "Content-Type": "application/json",
+            "ClientId": self.config['auth']['client_id'],
              "X-USER-ID" : self.config['azure']['x_user_id'],
-            "ClientId": self.config['auth']['client_id']
         }
+        
         data = {
             "model": self.config['azure']['model'],
-            "temperature": self.config['azure']['temperature'],
             "max_tokens": self.config['azure']['max_token'],
+            "temperature": self.config['azure']['temperature'],
             "messages": [
+                {"role": "user", "content": utterance},
                 {"role": "system", "content": system_prompt},
-                {"role": "user", "content": utterance}
             ]
         }
+        
         start_time = time.time()
         response = requests.post(azure_endpoint, headers=headers, json=data, verify=False)
         elapsed = -1
@@ -138,10 +147,10 @@ Respond ONLY in valid JSON:
             parsed = response.json()
             content = parsed["choices"][0]["message"]["content"]
             tokens_used = parsed["usage"]["total_tokens"]
+            
             return content, tokens_used, elapsed
         except Exception:
             return "{}", 0, elapsed
-
 
     # def call_llm(self, system_prompt, user_input):
     #     url = "https://api.openai.com/v1/chat/completions"
@@ -174,6 +183,7 @@ Respond ONLY in valid JSON:
 
 
     # 1. classify group
+    
     def classify_group(self, utterance):
         raw, tokens, elapsed = self.call_llm(self.group_prompt, utterance)
         
@@ -183,17 +193,22 @@ Respond ONLY in valid JSON:
             return {}, tokens
         
         # ensure group_name exists
+        
         if not parsed or "group_name" not in parsed:
             return {}, tokens
         
         return parsed, tokens, elapsed
     
     # 2. classify intent
+    
     def classify_intent(self, utterance, group_name):
         # filter intents for this group
+    
         group = next((g for g in self.all_groups if g["group_name"] == group_name), None)
+    
         if not group:
             return {}, 0
+        
         allowed_ids = group["intents"]
 
         filtered_intents = [
@@ -211,33 +226,36 @@ Respond ONLY in valid JSON:
         return parsed, tokens, elapsed
     
     # Two step classification
+    
     def classify(self, utterance):
-
         # STEP 1 - GROUP
-        group_result, g_tokens, group_time = self.classify_group(utterance)
         
+        group_result, g_tokens, group_time = self.classify_group(utterance)
         
         if not group_result:
             return {
                 "group": None,
                 "intent": None,
                 "confidence": "Low",
-                "total_tokens_used": g_tokens,
+                "intent_time_sec": 0,
                 "group_time_sec": group_time,
-                "intent_time_sec": 0
+                "total_tokens_used": g_tokens,
             }
         
         group_name = group_result["group_name"]
+        
         # STEP 2 - INTENT
+        
         intent_result, i_tokens, intent_time = self.classify_intent(utterance, group_name)
         
         return {
             "group": group_result,
             "intent": intent_result,
-            "total_tokens_used": g_tokens + i_tokens,
             "group_time_sec": group_time,
-            "intent_time_sec": intent_time
+            "intent_time_sec": intent_time,
+            "total_tokens_used": g_tokens + i_tokens,
         }
+        
         # Example Output:
         # {
         #     "group": {
