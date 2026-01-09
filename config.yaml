@@ -15,180 +15,451 @@ batch:
   max_threads: 10
   chunk_size: 1000
 
-intents:
+intentVsDescriptionMapping:
+  intents:
   - intent_id: 1
-    intent_name: "Get Balance"
-    description:
-      "Tag an utterance to this intent when the customer wants to check the available or current balance of their
-      account, debit card, credit card, loan, or deposit (e.g., “What's my balance?”, “Show remaining amount”). Ignore requests
-      about reasons for low balance, failed/declined/on-hold transactions, fund transfers, or minimum balance requirements."
-
+    intent_name: Account Closure
+    description: The user wants to close his bank account.
   - intent_id: 2
-    intent_name: "Card Activation"
-    description: "Tag this intent when the customer wants to activate their credit or debit card, including new, replacement, or reissued cards, or asks how to activate it via app, online banking, ATM, or phone banking. Ignore requests to apply for a new card, check delivery or application status, unlock or unblock a card, fix card issues, reset PIN, or activate their account or banking application."
-
+    intent_name: Funds Transfer Status
+    description: The user wants to check or view the status of fund transfers.
   - intent_id: 3
-    intent_name: "Get Transactions"
-    description: "Tag utterances where customers request to check recent transactions linked to their account, card, loan, or deposit, including variations like viewing payments for a specific date or time range or asking why their balance is low. Exclude requests related to fees/charges, delayed/on-hold/declined transactions, refunds, or transaction reversal issues."
-
+    intent_name: Card Delivery Status
+    description: The user wants to check the delivery status of his card.
   - intent_id: 4
-    intent_name: "Transfers and Payments"
-    description: "Tag utterances where customers request to send money, including references to local/domestic or international transfers and terms like UAEFTS, RTGS, SWIFT, or Instant Transfer, as well as indirect phrases like “transfer funds” or “send money abroad.” Exclude requests to pay bills, check transfer status, complaints, enquiries about charges, limits, reversals/refunds, cash/cheque deposits or withdrawals, and setting up direct debits or standing instructions."
-
+    intent_name: Transaction Decline Reason
+    description: The user wants to know the reason for their declined transaction
   - intent_id: 5
-    intent_name: "View Account Status"
-    description: "Tag requests where customers ask about the status of their new account application—whether it was reviewed, activated, or declined. Exclude requests to open an account, resolve opening issues, account usage problems, or status checks for other products/services like cards, loans, or banking apps."
-
+    intent_name: Card Controls
+    description: The user wants to temporarily or permanently block and replace their
+      card or unlock their card or enable mcc access on thier card.
   - intent_id: 6
-    intent_name: "Card Controls"
-    description: "Tag this intent when the customer wants to lock/unlock their card, permanently block it, replace a blocked card. Ignore cases where the customer reports the card not working, transactions failing/delayed, or the card not being delivered/activated."
-
+    intent_name: Balances
+    description: 'The user wants to check the balance of their banking product. '
   - intent_id: 7
-    intent_name: "Dispute Transactions"
-    description: "Tag utterances where customers dispute transactions, including unauthorized debits, incorrect amounts, duplicate charges, or merchant product/service not received. Exclude ATM withdrawal issues, lost/stolen cards, delayed/wrong transfers, cashback disputes, unpaid bills, or status checks for existing disputes."
-
+    intent_name: View Standing Instructions
+    description: The user wants to view their existing standing instructions.
   - intent_id: 8
-    intent_name: "Report Fraud"
-    description: "Tag utterances where customers explicitly report committed or attempted fraud using the term 'fraud.' Exclude transaction disputes, general complaints, or status checks for existing fraud cases"
-
+    intent_name: Modify Standing Instructions
+    description: The user wants to update details of their existing standing instructions.
   - intent_id: 9
-    intent_name: "Block Account"
-    description: "Tag utterances where customers explicitly ask to block their account, sometimes due to fraud. Exclude requests to check block status, unblock an account, block a card, or queries about why the account was blocked"
-
+    intent_name: Cancel Standing Instructions
+    description: The user wants to cancel their existing standing instructions.
   - intent_id: 10
-    intent_name: "Unblock Account"
-    description: "Tag utterances where customers explicitly request to unblock their account or restore access after a block. Exclude status checks, reasons for block, requests to block an account, unblock a card, or activate a new account."
-
+    intent_name: Update Mobile Number
+    description: The user wants to update their mobile number.
   - intent_id: 11
-    intent_name: "Track An Existing Complaint"
-    description: "Tag this intent when a customer wants to check the status of their service request (service request queries strictly restricted to new card request or letters) or complaint made recently to the bank. The customer may mention the full or partial case reference number (E.g. REF-18255435-Q1G0L5 or Q1G0L5) , when checking for the status. Ignore requests for a new service or complaint creation or status of a transaction dispute."
-
+    intent_name: Card PIN Reset
+    description: The user wants to reset their card PIN.
   - intent_id: 12
-    intent_name: "Get Paper Statement"
-    description: "Tag an utterance when the customer requests an online (e-statement) or stamped physical/paper statement for their account including variations like download, mail, or hard copy. Ignore requests for letters (IBAN, account closure, liability, clearance), certificates, or complaints related to statements."
-
+    intent_name: Update KYC
+    description: The user wants to update their KYC.
   - intent_id: 13
-    intent_name: "Update Username"
-    description: "Tag utterances where customers request to update the username for online or mobile banking. Exclude requests to change nickname, password, or any other profile details."
-
+    intent_name: Status of KYC Update
+    description: The user wants to check the status of their KYC.
   - intent_id: 14
-    intent_name: "Reset Password"
-    description: "Tag utterances where customers request to update or reset their online/mobile banking password, whether due to forgetting or for security. Exclude requests to change card PIN, username, nickname, security questions, or other profile details."
-
+    intent_name: View or Redeem Mashreq Vantage Points
+    description: The user wants to check the details of their Mashreq Vantage (Salaam)
+      points or redeem them.
   - intent_id: 15
-    intent_name: "Apply for a physical debit card"
-    description: "Tag utterances where customers request a new debit card or physical ATM card (first-time issuance). Exclude requests for replacement cards, card activation, or general enquiries like cost, card types, or eligibility"
-
+    intent_name: Request for a New Cheque Book
+    description: The user wants to request for a new cheque book.
   - intent_id: 16
-    intent_name: "Agent Transfer"
-    description: "Tag utterances where customers request human assistance using terms like “live agent,” “service officer,” “human,” “contact center/call center,” or “agent.” Exclude requests for branch staff, insurance representatives, or RMs, and cases where the customer mentions a reason that can be handled by the bot (e.g., account closure, statements, letters)."
-
+    intent_name: Card Activation
+    description: The user wants to activate their new card.
   - intent_id: 17
-    intent_name: "View or Add Fund Transfer Payees"
-    description: "The user wants to view existing payees, verify their details, or add a new payee for fund transfers."
-
+    intent_name: Credit Card Payment Details Real Time
+    description: The user wants to check the due or outstanding payement details of
+      their credit card.
   - intent_id: 18
-    intent_name: "View or Add Bill Payment Beneficiary"
-    description: "The user wants to view existing beneficiaries immediately or add a new beneficiary for bill payments (not keep beneficiaries unchanged)."
-
+    intent_name: Apply for New Products
+    description: The user wants to apply for a new banking product.
   - intent_id: 19
-    intent_name: "Funds Transfer Status"
-    description: "The user wants to check or view the status of utility bills, past bill payments, and fund transfers."
-
-  - intent_id: 10
-    intent_name: "Update Profile Details"
-    description: "The user wants to update his profile information such as email address, permanent address, residential address, courier address, mobile number, CNIC or National ID."
-
+    intent_name: Track an Existing Case
+    description: The user wants to check the status of their service request or complaint
+      or case raised by them.
+  - intent_id: 20
+    intent_name: View MMC Details
+    description: The user wants to check details of their existing Mashreq Millionnaire
+      Certificates.
   - intent_id: 21
-    intent_name: "View Profile Details"
-    description: "The user wants to view his profile information such as email address, permanent address, residential address, courier address, mobile number, CNIC or National ID."
-
+    intent_name: Purchase MMC
+    description: The user wants to purchase Mashreq Millionnaire Certificates.
   - intent_id: 22
-    intent_name: "Register A Complaint"
-    description: "The user wants to register a complaint with the bank."
-
+    intent_name: Liquidate MMC
+    description: The user wants to liquidate or encash their existing Mashreq Millionnaire
+      Certificates.
   - intent_id: 23
-    intent_name: "Get Account Information"
-    description: "The user wants to view his account summary such as accounts linked to his profile, account nickname, account type, current status, account currency, account number, opening date of account, and IBAN number."
-
+    intent_name: Overdraft
+    description: The user has some enquiry or request related to overdraft facility.
   - intent_id: 24
-    intent_name: "Limit Management"
-    description: "The user wants to view or change account or card limits (not confirm or keep limits unchanged)."
-
+    intent_name: Travel Update
+    description: The user wants to notify the bank about their upcoming travel to
+      ensure uninterrupted card usage and prevent irrelevant fraud alerts during travel.
   - intent_id: 25
-    intent_name: "Discounts and Promotions"
-    description: "The user wants to explore promotions, deals, and special offers available on their debit card, including discounts on shopping, dining, travel, apparel, electronics, health, beauty, and education. They also want to know about exclusive benefits, PAY PAK card features, and category-specific offers like salons, toys, and home living."
-
+    intent_name: Loan Top-up
+    description: The user wants a top up on their existing loan.
   - intent_id: 26
-    intent_name: "Close Account"
-    description: "The user wants to close his bank account."
-
+    intent_name: ATM/Branch Locator
+    description: The user wants to know the nearest Mashreq or ATM branch location
+      information.
   - intent_id: 27
-    intent_name: "Delivery Status"
-    description: "The user wants to check the delivery status of his card."
-
+    intent_name: Credit Card Cancellation Request
+    description: The user wants to cancel their credit card.
   - intent_id: 28
-    intent_name: "Charges Fees And Profit"
-    description: "The user wants to view the charges applied on their account or card or the profit earned on their account."
-
+    intent_name: Credit Card Cancellation Status
+    description: The user wants to check if their credit card was cancelled.
   - intent_id: 29
-    intent_name: "Debit Card PIN Reset"
-    description: "The user wants to reset his debit card PIN."
-
+    intent_name: View Pay Protect Status
+    description: The user wants to check if the Pay Protect Insurance benefit is activated
+      on their credit card.
   - intent_id: 30
-    intent_name: "Request for Letters"
-    description: "The user wants to request a balance certificate or an account maintenance letter."
-
-groups:
+    intent_name: Pay Protect Reversal or Cancellation
+    description: The user wants to check if the Pay Protect insurance plan is active
+      or applicable on their credit card.
+  - intent_id: 31
+    intent_name: Cardless Cash
+    description: The user wants to avail the Cardless Cash facility - withdraw cash
+      from the ATM without their physical card.
+  - intent_id: 32
+    intent_name: Easy Cash
+    description: The user wants to avail Easy Cash facility, which is an instant cash
+      advance (loan) on their credit card.
+  - intent_id: 33
+    intent_name: Refund in Case of Excess Credit Card Balance
+    description: The user wants to get a refund of excess or positive balance from
+      their credit card.
+  - intent_id: 34
+    intent_name: Setup Autopay For Credit Card Bill Payment
+    description: The user wants to set up or modify an automatic payment facility
+      or standing instruction for their credit card bill.
+  - intent_id: 35
+    intent_name: Paper Statements Request
+    description: The user wants to view or download or request his bank account paper
+      statement for his account, card or loan.
+  - intent_id: 36
+    intent_name: Status of Account Closure
+    description: The user wants to check if their account was successfully closed.
+  - intent_id: 37
+    intent_name: Status of Transaction Dispute
+    description: The user wants to check the status of the transaction dispute raised
+      by them.
+  - intent_id: 38
+    intent_name: Username Retrieval
+    description: The user wants to retrieve their digital banking username.
+  - intent_id: 39
+    intent_name: Reset Password
+    description: The user wants to reset or update their password.
+  - intent_id: 40
+    intent_name: MOL/MOB Reactivation
+    description: The user wants to reactivate their online banking , mobile banking,
+      home banking account application or website.
+  - intent_id: 41
+    intent_name: Dormant Account Reactivation
+    description: The user wants to reactivate their dormant account.
+  - intent_id: 42
+    intent_name: Update Profile Information
+    description: The user wants to update his profile information such that email
+      address, permanent address, residential address, courier address, Emirates ID,
+      Passport details or marketing communication preferences (e.g., choosing to receive
+      banking alerts via SMS, email, or WhatsApp).
+  - intent_id: 43
+    intent_name: TIN Reset
+    description: The user wants to retrieve, reset, or update their Telephone Identification
+      Number (TIN).
+  - intent_id: 44
+    intent_name: Cash Deposit Limit Enquiry
+    description: The user wants to check their available cash deposit limit.
+  - intent_id: 45
+    intent_name: Cash Deposit Limit Increase Request
+    description: The user wants to increase their cash deposit limit.
+  - intent_id: 46
+    intent_name: View or Redeem Cashback
+    description: The user wants to view or redeem their cashback.
+  - intent_id: 47
+    intent_name: Balance Conversion
+    description: The user wants to convert their credit card outstanding balance into
+      monthly installments.
+  - intent_id: 48
+    intent_name: Easy Payment Plan (EPP) Booking
+    description: The user wants to convert a credit card transaction into monthly
+      installments.
+  - intent_id: 49
+    intent_name: Transactions
+    description: The user wants to view their transactions.
+  - intent_id: 50
+    intent_name: View or Pay Utility Bills
+    description: The user wants to view or pay their utility bill or add a biller.
+  - intent_id: 51
+    intent_name: Utility Bill Payment Enquiry
+    description: The user wants to check status if their utility bill or past bill
+      was paid.
+  - intent_id: 52
+    intent_name: Fund Transfer Request
+    description: The user wants to transfer money.
+  - intent_id: 53
+    intent_name: Upload Signature
+    description: The user wants to upload or update their signature with bank.
+  - intent_id: 54
+    intent_name: Recall Fund Transfer
+    description: The user wants to reverse or cancel a fund transfer they initiated.
+  - intent_id: 55
+    intent_name: View/Cancel Deals
+    description: The user wants to view or cancel their existing credit card deals.
+  - intent_id: 56
+    intent_name: OTP through Email Request
+    description: The users report not receiving an OTP or request sending it to email.
+  - intent_id: 57
+    intent_name: Subscribe/Unsubscribe to Estatements
+    description: The user wants to subscribe or unsubscribe to estatements.
+  - intent_id: 58
+    intent_name: View/Add Beneficiary
+    description: The user want to view or add fund transfer beneficiaries or payees.
+  - intent_id: 59
+    intent_name: Joining Bonus
+    description: The user has enquiries about their joining or welcome bonus.
+  - intent_id: 60
+    intent_name: Account Status Enquiry
+    description: The user ask about their account status, new account application
+      status or complain about being unable to use it.
+  - intent_id: 61
+    intent_name: RM Details
+    description: The user asks for contact details of their relationship manager (RM).
+  - intent_id: 62
+    intent_name: Loan Postponement Request
+    description: The user asksto postpone their loan EMI payment.
+  - intent_id: 63
+    intent_name: Loan Restructuring Request
+    description: The user wants to restructure their loan.
+  - intent_id: 64
+    intent_name: Loan Settlement
+    description: The user wants to settle their existing loan.
+  - intent_id: 65
+    intent_name: View EMIs
+    description: The user wants to view all their monthly payable EMIs or installments.
+  - intent_id: 66
+    intent_name: Cancel EMIs
+    description: The user wants to cancel one of their monthly payable EMIs or installments.
+  - intent_id: 67
+    intent_name: Insurance Cancellation Request
+    description: The user wants to cancel their insurance/takaful policy.
+  - intent_id: 68
+    intent_name: Contact Insurance Service Provider
+    description: The user wants to get contact details of their insurance/takaful
+      provider.
+  - intent_id: 69
+    intent_name: Insurance (Keyword Handler)
+    description: The user wants to get help or apply for insurance/takaful.
+  - intent_id: 70
+    intent_name: Deposit Amendment/Redemption
+    description: The user wants to modify details of their deposit or redeem it.
+  - intent_id: 71
+    intent_name: Fund Transfer Limit Increase Request
+    description: The user wants to increase their fund transfer limit.
+  - intent_id: 72
+    intent_name: Fall below fee
+    description: The user is enquring about fall below fee.
+  - intent_id: 73
+    intent_name: Credit Card Benefits Booking
+    description: The user wants to avail a benefit on their credit card.
+  - intent_id: 74
+    intent_name: Request a Letter
+    description: The user wants to request a bank letter such as IBAN, Account Closure,
+      Liability, No Liability/Clearance, or Balance Certificate.
+  - intent_id: 75
+    intent_name: Account Summary
+    description: The user wants to view his account summary such as accounts linked
+      to his profile, account nickname, account type, current status, account currency,
+      account number, opening date of account and IBAN number.
+  - intent_id: 76
+    intent_name: Register a Complaint
+    description: The user wants to register a complaint with the bank.
+  - intent_id: 77
+    intent_name: Raise a Dispute
+    description: The user wants to raise a dispute or submit a dispute form or report
+      fraud.
+  - intent_id: 78
+    intent_name: Agent Transfer Request
+    description: The user wants to speak to a human or live agent.
+  - intent_id: 79
+    intent_name: Enquiry of Interest, Fees & Charges
+    description: The user wants to view or understand charges applied on their account/card.
+  - intent_id: 80
+    intent_name: Reversal of Interest, Fees & Charges
+    description: The user wants to request reversal or refund of charges applied on
+      their account/card.
+  - intent_id: 81
+    intent_name: Modify Card Limits
+    description: The user wants to change their card limits.
+  - intent_id: 82
+    intent_name: What is my SWIFT code?
+    description: The user wants to know their SWIFT code.
+  - intent_id: 83
+    intent_name: How to register my device?
+    description: The user wants to register their device for creation of security
+      PIN.
+  - intent_id: 84
+    intent_name: When will my cheque get deposited?
+    description: The user wants to know if their cheque has been deposited and when
+      it will be cleared or returned.
+  - intent_id: 85
+    intent_name: Exchange Rate Calculator
+    description: The user wants to check or calculate the current exchange rate for
+      currencies.
+  - intent_id: 86
+    intent_name: Liability Letter Status
+    description: The user wants to know the status of their requested liability letter.
+  - intent_id: 87
+    intent_name: Amend Fund Transfer
+    description: The user wants to modify details of an existing fund transfer request.
+  - intent_id: 88
+    intent_name: Cash Deposit Issue
+    description: The user is facing a problem related to their cash deposit transaction.
+  - intent_id: 89
+    intent_name: Negative Sentiment
+    description: The user is expressing dissatisfaction or frustration in their communication
+    
+GroupVsIntentMapping:
+  groups:
   - group_id: 1
-    intents: [1, 3, 12, 28, 23]
-    group_name: "Account Information"
-    description: "Balances, transactions, statements, Charges Fees And Profit and general account information."
-
+    group_name: Accounts & Information
+    description: Balances (not outstanding or dues), transactions, account summary,
+      general account status, new account application status and account closure status.
+    intents: [6, 49, 75, 60, 1, 36]
   - group_id: 2
-    intents: [5, 9, 10, 26]
-    group_name: "Account Actions and Status"
-    description: "Account status changes and requests such as block, unblock, and closure."
-
+    group_name: Payments & Transfers
+    description: Fund transfers, utilities, beneficiaries, standing instructions,
+      transfer status, amendments, recalls, fund transfer limit increase, and decline
+      reasons.
+    intents: [52, 58, 87, 54, 71, 50, 51, 7, 8, 9, 4, 2]
   - group_id: 3
-    group_name: "Cards"
-    intents: [6, 2, 15, 27, 29]
-    description: "Debit card lifecycle including block, unblock, activation, delivery, and PIN reset."
-
+    group_name: Cards & Controls
+    description: 'Card lifecycle: activation, controls, PIN, delivery, modify limit,
+      travel notification, cardless/easy cash, card benefits, and view or cancel deals.'
+    intents: [16, 5, 11, 3, 24, 31, 32, 73, 55, 81]
   - group_id: 4
-    intents: [4, 17, 18, 19, 24]
-    group_name: "Payments and Transfers"
-    description: "Fund transfers, beneficiaries, utility bill payments, limit management and transfer statuses."
-
+    group_name: Security & Authentication
+    description: Login, credentials, device registration, OTP issues, reactivation
+      (online/mobile/dormant) and TIN Reset.
+    intents: [38, 39, 83, 56, 40, 41, 43]
   - group_id: 5
-    intents: [22, 11, 16]
-    group_name: "Complaints and Case Management"
-    description: "Registering complaints, tracking cases, complaint types and agent handover"
-
+    group_name: Complaints & Case Management
+    description: Register and track cases/complaints, disputes, agent handover, issue
+      reporting, and negative sentiment handling.
+    intents: [76, 19, 77, 37, 78, 88, 89]
   - group_id: 6
-    intents: [8, 7]
-    group_name: "Security and Fraud"
-    description: "Fraud reporting and raise a dispute."
-
+    group_name: Profile & KYC
+    description: Profile updates, mobile number, KYC updates/status, and RM contact
+      details.
+    intents: [42, 10, 12, 13, 61]
   - group_id: 7
-    intents: [13, 14, 20, 21]
-    group_name: "Profile Access and Information"
-    description: "Profile updates, credentials, and personal information."
-
+    group_name: Fees & Charges
+    description: Interest, fees, charges inquiries, reversals/refunds, and fall-below
+      fee.
+    intents: [79, 80, 72]
   - group_id: 8
-    intents: [30]
-    group_name: "Letters"
-    description: "Requests for various bank letters."
-
+    group_name: Documents, Letters & Cheques
+    description: Statements, bank letters, liability letters, cheque book, cheque
+      deposit, e-statement subscription, and signature upload.
+    intents: [35, 74, 86, 15, 84, 57, 53]
   - group_id: 9
-    intents: [25]
-    group_name: "Rewards and Promotions"
-    description: "Discounts, cashback, and promotional offers."
+    group_name: Loans & EMIs
+    description: Loan top-up, postponement, restructuring, settlement, EMI view/cancel,
+      credit card installment conversions and balance conversion.
+    intents: [25, 62, 63, 64, 65, 66, 47, 48]
+  - group_id: 10
+    group_name: Deposits & Investments (MMC)
+    description: 'Time deposits and Mashreq Millionnaire Certificates: view, purchase,
+      liquidate, amend/redeem.'
+    intents: [70, 20, 21, 22]
+  - group_id: 11
+    group_name: Credit Card Account Services
+    description: Credit card dues payments, cancellations request and status, refunds
+      of excess balance, autopay setup, and Pay Protect insurance status and cancellation.
+    intents: [17, 27, 28, 33, 34, 29, 30]
+  - group_id: 12
+    group_name: FX & SWIFT
+    description: SWIFT code inquiries and currency exchange rate checks.
+    intents: [82, 85]
+  - group_id: 13
+    group_name: Branch & ATM Locator
+    description: Find nearest branch or ATM locations.
+    intents: [26]
+  - group_id: 14
+    group_name: Rewards & Loyalty
+    description: Vantage/Salaam points, cashback, and joining bonus inquiries or redemptions.
+    intents: [14, 46, 59]
+  - group_id: 15
+    group_name: Applications & Onboarding
+    description: Applications for new banking products and overdraft-related requests
+      or enquiries.
+    intents: [18, 23]
+  - group_id: 16
+    group_name: Cash Deposit Limits
+    description: Cash deposit limit enquiry and increase requests.
+    intents: [44, 45]
+  - group_id: 17
+    group_name: Insurance & Takaful
+    description: 'General insurance/takaful: cancellation, provider contact, and keyword
+      assistance.'
+    intents: [67, 68, 69]
+
+intentUseCaseMap:
+  Delivery Status: Card Delivery Status
+  Reason for Transaction Decline: Transaction Decline Reason
+  Redeem Mashreq Vantage Points: View or Redeem Salaam Points
+
+customIntentList:
+- Update KYC Request
+- Status on KYC
+- Redeem Mashreq Vantage Points
+- Track An Existing Case
+- MMC Details
+- Purchasing MMC
+- Liquidate MMC
+- OverDraft
+- View Pay Protect Status
+- Pay Protect Cancellation and Reversal
+- Cardless Cash
+- Easy Cash
+- Transaction Dispute Status
+- Username Retrieval
+- TIN Reset
+- Cashback Service
+- Conversion to EMI
+- Easy Payment Plan
+- DubaiBillPaymentRequest
+- Customer Signature Update
+- Recall Fund Transfer
+- Active Deals Inquiry
+- Close Active Deals
+- OTP through email request
+- Joining Bonus
+- Loan Restructuring
+- Cancel Insurance
+- Contact Insurance Provider
+- Apply for Insurance
+- Credit Card benefit booking
+- Request for Letters
+- Register A Complaint
+- What is my SWIFT code?
+- How to register a Device?
+- When will my cheque get deposited ?
+- Exchange Rate Calculator
+- Liability Letter Status
+- Amend Fund Transfer
+- subtaskTalktoAgent
+
+
+bot:
+  customBotName: "UAE LLM Custom"
+
 
 report:
-  generate_csv: true
   generate_html: true
+  generate_csv: true
   output_html: "report.html"
+
 
 logging:
   level: "DEBUG"

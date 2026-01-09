@@ -166,9 +166,16 @@ Rate limit / timeout → adjust retry_tries and retry_backoff_factor in config.y
 Logging not showing debug info → ensure logging.level in config is DEBUG
 
 CLI Options
-python classify.py --input <input_csv> --output <output_csv>
-
+python classify.py --input input.csv --output output.csv
 
 Optional:
 
 Use your own config.yaml path by editing the file in the folder.
+
+Create environment cmd:
+
+python -m venv mashreq
+
+mashreq\Scripts\activate
+
+pip install -r requirements.txt 

@@ -1,0 +1,574 @@
+utterance,expected_intent
+Show me how many Salaam points I can redeem for rewards.,Redeem Mashreq Vantage Points
+Redeem my Salaam points for vouchers.,Redeem Mashreq Vantage Points
+Hi there! I would love to use my Salaam points for a flight ticket.,Redeem Mashreq Vantage Points
+I have been saving these points for months and want to redeem them for a hotel stay during my vacation.,Redeem Mashreq Vantage Points
+I am not planning to redeem any points right now.,Redeem Mashreq Vantage Points
+plese reedem my salm ponts for gift.,Redeem Mashreq Vantage Points
+What is the current exchange rate for USD to AED?,Exchange Rate Calculator
+Calculate currency conversion for 500 dollars.,Exchange Rate Calculator
+Good morning! Can you tell me how much 100 euros is in dirhams?,Exchange Rate Calculator
+I am traveling to London next week and need to know the conversion for GBP to AED before booking.,Exchange Rate Calculator
+I do not need any currency conversion details right now.,Exchange Rate Calculator
+plz calclate currncy for 500 dolars.,Exchange Rate Calculator
+Do I qualify for the joining bonus on my new credit card?,Joining Bonus
+Check my joining bonus eligibility.,Joining Bonus
+"Hey! I just signed up for a card, can you confirm my joining bonus?",Joining Bonus
+I applied for a premium card last week and want to know if the joining bonus has been credited.,Joining Bonus
+Forget about checking the joining bonus for now.,Joining Bonus
+plese chek jonning bonas for my acount.,Joining Bonus
+I need to update my signature on file.,Customer Signature Update
+Update my signature immediately.,Customer Signature Update
+Hello! Can you help me change my signature in your records?,Customer Signature Update
+I changed my signature recently and need to update it before my next cheque book request.,Customer Signature Update
+I do not want to update my signature anymore.,Customer Signature Update
+plese updte my signaturr asap.,Customer Signature Update
+Send my OTP to my email instead of SMS.,OTP through email request
+Email OTP now.,OTP through email request
+Hi! Could you send the OTP to my registered email address?,OTP through email request
+"I am traveling and do not have access to my phone, please email the OTP urgently.",OTP through email request
+Do not send any OTP to my email.,OTP through email request
+plese snd OTP to emal.,OTP through email request
+I need to reset my TIN immediately.,TIN Reset
+Reset my TIN now.,TIN Reset
+Hi there! Can you help me reset my TIN?,TIN Reset
+I forgot my Telephone identification number after updating my banking app and need to reset it urgently.,TIN Reset
+Do not reset my TIN anymore.,TIN Reset
+plese rset my TIN asap.,TIN Reset
+Check the status of my disputed transaction.,Transaction Dispute Status
+Show dispute status now.,Transaction Dispute Status
+Good morning! Can you confirm if my disputed transaction has been resolved?,Transaction Dispute Status
+I raised a dispute last week for a wrong debit and need to know if it is cleared.,Transaction Dispute Status
+Do not check the dispute status right now.,Transaction Dispute Status
+plese chek tnx dispute statuus.,Transaction Dispute Status
+Help me retrieve my username for online banking.,Username Retrieval
+Get my username now.,Username Retrieval
+"Hi! I forgot my username, can you help me recover it?",Username Retrieval
+"I changed my email recently and cannot log in, please retrieve my username.",Username Retrieval
+Do not retrieve my username anymore.,Username Retrieval
+plese retrive usrname.,Username Retrieval
+I want to check the status of my KYC update.,Status on KYC
+Show KYC status now.,Status on KYC
+Hello! Can you tell me if my KYC update is complete?,Status on KYC
+I submitted my KYC documents last week and need confirmation before applying for a loan.,Status on KYC
+Do not check my KYC status anymore.,Status on KYC
+plese chek KYC staus.,Status on KYC
+Show me all my active deals and installment plans.,Active Deals Inquiry
+List my deals now.,Active Deals Inquiry
+Hi! Can you provide details of my ongoing installment plans?,Active Deals Inquiry
+"I am planning to close one of my deals early, so I need to review all active installments first.",Active Deals Inquiry
+Do not show any deals or installments right now.,Active Deals Inquiry
+plese shw my actve deals.,Active Deals Inquiry
+I want to book benefits for my credit card.,Credit Card benefit booking
+Book credit card benefits now.,Credit Card benefit booking
+Hello! Can you help me book lounge access benefits on my card?,Credit Card benefit booking
+I am traveling next week and need to book airport lounge benefits for my credit card.,Credit Card benefit booking
+Do not book any benefits for my card.,Credit Card benefit booking
+plese bok benfits for my crdit crd.,Credit Card benefit booking
+I want to request cashback for my recent purchase.,Cashback Service
+Apply cashback now.,Cashback Service
+Hello! Can you check if I am eligible for cashback on my last transaction?,Cashback Service
+I bought electronics during the offer period and need to claim my cashback.,Cashback Service
+Do not process any cashback for me.,Cashback Service
+plese aplly cashbak for my purchse.,Cashback Service
+Show me the status of my PayProtect plan.,View Pay Protect Status
+Check PayProtect status now.,View Pay Protect Status
+Hi! Can you confirm if my PayProtect coverage is active?,View Pay Protect Status
+I enrolled in PayProtect last month and need to verify its status before making a claim.,View Pay Protect Status
+Do not check my PayProtect status anymore.,View Pay Protect Status
+plese chek payprotec staus.,View Pay Protect Status
+Cancel my PayProtect plan and reverse any charges.,Pay Protect Cancellation and Reversal
+Cancel PayProtect now.,Pay Protect Cancellation and Reversal
+Hi! Can you help me cancel my PayProtect coverage and process the reversal?,Pay Protect Cancellation and Reversal
+I was charged for Pay Protect insurance by mistake and need to cancel it.,Pay Protect Cancellation and Reversal
+Do not cancel my PayProtect plan anymore.,Pay Protect Cancellation and Reversal
+plese cancl payprotec and reverce chrges.,Pay Protect Cancellation and Reversal
+I want to apply for Easy Cash on my credit card.,Easy Cash
+Apply Easy Cash now.,Easy Cash
+Hi! Can you guide me through the Easy Cash process?,Easy Cash
+I need urgent funds and want to use Easy Cash on my card immediately.,Easy Cash
+Do not process Easy Cash for me.,Easy Cash
+plese aplly esy cash.,Easy Cash
+Show me Easy Payment Plan options for my purchases.,Easy Payment Plan
+Activate Easy Payment Plan now.,Easy Payment Plan
+Hello! Can you help me convert my transactions into an Easy Payment Plan?,Easy Payment Plan
+I bought electronics recently and want to convert the amount into an Easy Payment Plan with no interest.,Easy Payment Plan
+Do not activate any Easy Payment Plan for me.,Easy Payment Plan
+plese actvate easy paymnt plan.,Easy Payment Plan
+Convert my outstanding balance into EMI.,Conversion to EMI
+Start balance conversion now.,Conversion to EMI
+Hi! Can you help me convert my balance into monthly installments?,Conversion to EMI
+I am finding it hard to pay the full amount and need to convert my balance into EMI immediately.,Conversion to EMI
+Do not convert my balance into EMI anymore.,Conversion to EMI
+plese cnvert balnce to EMI.,Conversion to EMI
+Show me the details of my MMC account.,MMC Details
+Get MMC details now.,MMC Details
+Hi! Can you provide the latest MMC details for my account?,MMC Details
+I invested in MMC last month and need to check the current status before making another purchase.,MMC Details
+Do not fetch MMC details for me right now.,MMC Details
+plese shw MMC detals.,MMC Details
+I want to pay my utility bill through the app.,DubaiBillPaymentRequest
+Pay my utility bill now.,DubaiBillPaymentRequest
+Hello! Can you help me process my electricity bill payment?,DubaiBillPaymentRequest
+My water bill is overdue and I need to clear it immediately using your service.,DubaiBillPaymentRequest
+Do not process any utility bill payment for me.,DubaiBillPaymentRequest
+plese pay utlity bil asap.,DubaiBillPaymentRequest
+I want to withdraw cash without using my card.,Cardless Cash
+Initiate cardless cash withdrawal now.,Cardless Cash
+Hi! Can you guide me on how to use cardless cash service?,Cardless Cash
+I forgot my card at home and need to withdraw money urgently using cardless cash.,Cardless Cash
+Do not start any cardless cash transaction for me.,Cardless Cash
+plese initate cardles cash.,Cardless Cash
+I want to activate overdraft on my account.,OverDraft
+Enable overdraft now.,OverDraft
+Hello! Can you help me set up overdraft protection?,OverDraft
+I am expecting a large payment soon and need overdraft enabled to avoid transaction failures.,OverDraft
+Do not activate overdraft for me anymore.,OverDraft
+plese actvate overdaft.,OverDraft
+Show me my EMI details for the current loan.,Get Account Information
+Fetch EMI details now.,Get Account Information
+Hi! Can you provide my EMI schedule for this month?,Get Account Information
+I need to check my EMI breakdown before making the next payment.,Get Account Information
+Do not show any EMI details right now.,Get Account Information
+plese shw EMI detals.,Get Account Information
+I want to restructure my existing loan.,Loan Restructuring
+Restructure my loan now.,Loan Restructuring
+Hi! Can you guide me through the loan restructuring process?,Loan Restructuring
+I am facing financial difficulties and need to restructure my loan to reduce monthly payments.,Loan Restructuring
+Do not proceed with loan restructuring anymore.,Loan Restructuring
+plese restrcture lon asap.,Loan Restructuring
+Show me the status of my liability letter request.,Liability Letter Status
+Check liability letter status now.,Liability Letter Status
+Hello! Can you confirm if my liability letter has been issued?,Liability Letter Status
+I applied for a liability letter last week and need to know its status before closing my account.,Liability Letter Status
+Do not check the liability letter status anymore.,Liability Letter Status
+plese chek liabilty leter staus.,Liability Letter Status
+I need a letter confirming my account balance.,Request for Letters
+Generate account letter now.,Request for Letters
+Hi! Can you help me get a letter for my account details?,Request for Letters
+I am applying for a visa and need an official letter showing my account balance.,Request for Letters
+Do not prepare any letters for me.,Request for Letters
+plese genrate acount leter.,Request for Letters
+I want to update my KYC details.,Update KYC Request
+Update KYC now.,Update KYC Request
+Hello! Can you help me update my KYC information?,Update KYC Request
+I have changed my address and need to update my KYC before applying for a new product.,Update KYC Request
+Do not update my KYC anymore.,Update KYC Request
+plese updte KYC detals.,Update KYC Request
+I want to purchase MMC units.,Purchasing MMC
+Buy MMC now.,Purchasing MMC
+Hi! Can you help me purchase MMC units today?,Purchasing MMC
+I am planning to invest and need to purchase MMC units before the market closes.,Purchasing MMC
+Do not purchase MMC for me anymore.,Purchasing MMC
+plese purchse MMC unts.,Purchasing MMC
+I want to liquidate my MMC holdings.,Liquidate MMC
+Liquidate MMC now.,Liquidate MMC
+Hi! Can you help me liquidate my MMC units today?,Liquidate MMC
+I need urgent funds and want to liquidate my MMC investment immediately.,Liquidate MMC
+Do not liquidate my MMC anymore.,Liquidate MMC
+plese liqudate MMC unts.,Liquidate MMC
+I want to register a complaint about a failed transaction.,Register A Complaint
+Register complaint now.,Register A Complaint
+Hello! Can you help me file a complaint regarding my account?,Register A Complaint
+I faced an issue with my credit card payment and need to register a complaint immediately.,Register A Complaint
+Do not register any complaint for me.,Register A Complaint
+plese rgister complant.,Register A Complaint
+I want to track the status of my existing complaint.,Track An Existing Case
+Track complaint now.,Track An Existing Case
+Hi! Can you tell me the progress of my complaint?,Track An Existing Case
+I raised a complaint last week and need to know if it is resolved.,Track An Existing Case
+Do not track my complaint anymore.,Track An Existing Case
+plese trak complant staus.,Track An Existing Case
+I want to apply for a new insurance policy.,Apply for Insurance
+Apply insurance now.,Apply for Insurance
+Hi! Can you help me apply for health insurance?,Apply for Insurance
+I am planning for my family future and need to apply for insurance immediately.,Apply for Insurance
+Do not apply for any insurance for me.,Apply for Insurance
+plese aply insurence.,Apply for Insurance
+I want to cancel my insurance policy immediately.,Cancel Insurance
+Cancel insurance now.,Cancel Insurance
+Hi! Can you help me cancel my insurance coverage?,Cancel Insurance
+I have switched to another provider and need to cancel my current insurance policy today.,Cancel Insurance
+Do not cancel my insurance anymore.,Cancel Insurance
+plese cancl insurence.,Cancel Insurance
+I need to contact my insurance provider for policy details.,Contact Insurance Provider
+Connect me to insurance provider now.,Contact Insurance Provider
+Hello! Can you help me reach my insurance provider?,Contact Insurance Provider
+I have a claim issue and need to speak with my insurance provider urgently.,Contact Insurance Provider
+Do not contact the insurance provider for me.,Contact Insurance Provider
+plese conct insurence providr.,Contact Insurance Provider
+I want to amend the details of my recent fund transfer.,Amend Fund Transfer
+Amend fund transfer now.,Amend Fund Transfer
+Hi! Can you help me correct the beneficiary details in my fund transfer?,Amend Fund Transfer
+I entered the wrong account number and need to amend the transfer before it is processed.,Amend Fund Transfer
+Do not amend my fund transfer anymore.,Amend Fund Transfer
+plese amend fund tranfer detals.,Amend Fund Transfer
+I want to recall my recent fund transfer.,Recall Fund Transfer
+Recall fund transfer now.,Recall Fund Transfer
+Hello! Can you help me recall the transfer I made yesterday?,Recall Fund Transfer
+I sent money to the wrong account and need to recall the transfer urgently.,Recall Fund Transfer
+Do not recall my fund transfer anymore.,Recall Fund Transfer
+plese recal fund tranfer.,Recall Fund Transfer
+I want to close my fixed deposit account.,Cancel Or Modify Deposit
+Close fixed deposit now.,Cancel Or Modify Deposit
+Hi! Can you help me close my fixed deposit today?,Cancel Or Modify Deposit
+My FD is maturing soon and I need to close it before renewal.,Cancel Or Modify Deposit
+Do not close my fixed deposit anymore.,Cancel Or Modify Deposit
+plese clos fixd deposet.,Cancel Or Modify Deposit
+I want to close my account permanently.,Account Closure
+Close account now.,Account Closure
+Hello! Can you assist me in closing my account?,Account Closure
+I am moving to another bank and need to close my account immediately.,Account Closure
+Do not close my account anymore.,Account Closure
+plese clos acount.,Account Closure
+I want to change the details of my standing instruction.,Add or Update a Payee
+Update standing instruction now.,Add or Update a Payee
+Hi! Can you help me modify my standing instruction details?,Add or Update a Payee
+I need to change the payment amount in my standing instruction before the next due date.,Add or Update a Payee
+Do not change any standing instruction details for me.,Add or Update a Payee
+plese chnge standng instrction detals.,Add or Update a Payee
+I want to cancel my standing instruction.,Add or Update a Payee
+Cancel standing instruction now.,Add or Update a Payee
+Hello! Can you help me cancel my standing instruction?,Add or Update a Payee
+I set up a standing instruction last month and need to cancel it before the next payment.,Add or Update a Payee
+Do not cancel any standing instruction for me.,Add or Update a Payee
+plese cancl standng instrction.,Add or Update a Payee
+I want to add a new beneficiary to my account.,Add or Update a Payee
+Add beneficiary now.,Add or Update a Payee
+Hi! Can you help me add a beneficiary for fund transfers?,Add or Update a Payee
+I need to add a beneficiary before making a large transfer today.,Add or Update a Payee
+Do not add any beneficiary for me.,Add or Update a Payee
+plese ad benficiary detals.,Add or Update a Payee
+I want to view my beneficiary details added to my account.,Add or Update a Payee
+View beneficiary now.,Add or Update a Payee
+Hi! Can you help me to view a beneficiary for fund transfers?,Add or Update a Payee
+I need to view beneficiary before making a large transfer today.,Add or Update a Payee
+Do not show any beneficiary to me.,Add or Update a Payee
+plese display benficiary detals.,Add or Update a Payee
+Show me the nearest ATM or branch.,Bank Locator
+Find nearest branch now.,Bank Locator
+Hi! Can you help me locate an ATM nearby?,Bank Locator
+I am traveling and need to find the closest branch to withdraw cash urgently.,Bank Locator
+Do not search for any ATM or branch right now.,Bank Locator
+plese locat nerest ATM.,Bank Locator
+I want to cancel my EMI plan.,Cancel EMI
+Cancel EMI now.,Cancel EMI
+Hello! Can you help me cancel my EMI arrangement?,Cancel EMI
+I opted for EMI last month but want to cancel it before the next billing cycle.,Cancel EMI
+Do not cancel my EMI anymore.,Cancel EMI
+plese cancl EMI plan.,Cancel EMI
+I want to activate my card right now.,Card Activation
+Activate card now.,Card Activation
+Hi! Can you help me unblock and activate my card?,Card Activation
+My card was blocked after a failed transaction and I need to activate it immediately.,Card Activation
+Do not activate my card anymore.,Card Activation
+plese actvate crd.,Card Activation
+I want to cancel my credit card.,Card Cancellation Request
+Cancel card now.,Card Cancellation Request
+Hello! Can you help me cancel my card permanently?,Card Cancellation Request
+I am switching to another provider and need to cancel my card immediately.,Card Cancellation Request
+Do not cancel my card anymore.,Card Cancellation Request
+plese cancl crdit crd.,Card Cancellation Request
+I want to unblock my card for international transactions.,Card Controls
+Unblock card for country now.,Card Controls
+Hi! Can you help me enable my card for overseas use?,Card Controls
+I am traveling abroad tomorrow and need to unblock my card for international transactions.,Card Controls
+Do not unblock my card for any country.,Card Controls
+plese unblok crd for contries.,Card Controls
+I want to unblock my card for MCC transactions.,Card Controls
+Unblock card for MCC now.,Card Controls
+Hi! Can you help me enable MCC access on my card?,Card Controls
+My card was restricted for MCC codes and I need it unlocked for an upcoming payment.,Card Controls
+Do not unblock my card for MCC anymore.,Card Controls
+plese unblok crd for MCC.,Card Controls
+I want to unlock my card for transactions.,Card Controls
+Unlock card now.,Card Controls
+Hello! Can you help me unlock my card immediately?,Card Controls
+My card got locked after multiple failed attempts and I need it unlocked urgently.,Card Controls
+Do not unlock my card anymore.,Card Controls
+plese unlok crd asap.,Card Controls
+I want to block my card permanently.,Card Controls
+Block card now.,Card Controls
+Hi! Can you help me block my card for security reasons?,Card Controls
+My card was stolen yesterday and I need to block it immediately.,Card Controls
+Do not block my card anymore.,Card Controls
+plese blok crd immediatly.,Card Controls
+I am facing an issue with my recent cash deposit.,Cash Deposit Issue
+Resolve cash deposit issue now.,Cash Deposit Issue
+Hello! Can you check why my cash deposit has not been credited yet?,Cash Deposit Issue
+"I deposited cash yesterday and it is not reflecting in my account, please resolve this.",Cash Deposit Issue
+Do not look into the cash deposit issue anymore.,Cash Deposit Issue
+plese fix cash deposet isue.,Cash Deposit Issue
+I want to increase my cash deposit limit.,Cash Deposit limit Increase
+Increase cash deposit limit now.,Cash Deposit limit Increase
+Hi! Can you help me raise my cash deposit limit?,Cash Deposit limit Increase
+I have a large transaction coming up and need to increase my cash deposit limit urgently.,Cash Deposit limit Increase
+Do not increase my cash deposit limit anymore.,Cash Deposit limit Increase
+plese increse cash deposet limit.,Cash Deposit limit Increase
+I want to check my cash deposit limit.,Cash Deposit Limit Inquiry
+Show cash deposit limit now.,Cash Deposit Limit Inquiry
+Hi! Can you tell me my current cash deposit limit?,Cash Deposit Limit Inquiry
+I am planning a large deposit and need to confirm my limit before proceeding.,Cash Deposit Limit Inquiry
+Do not check my cash deposit limit anymore.,Cash Deposit Limit Inquiry
+plese chek cash deposet limit.,Cash Deposit Limit Inquiry
+I want to know the fees and charges on my account.,Charges and Fees Inquiry
+Show fees and charges now.,Charges and Fees Inquiry
+Hello! Can you provide details of interest and charges applied to my account?,Charges and Fees Inquiry
+I noticed extra charges on my statement and need to understand why they were applied.,Charges and Fees Inquiry
+Do not check any fees or charges for me.,Charges and Fees Inquiry
+plese chek feez and chrges.,Charges and Fees Inquiry
+I want to request a reversal of charges on my account.,Charges and Fees Reversal
+Reverse charges now.,Charges and Fees Reversal
+Hi! Can you help me reverse the fees applied to my account?,Charges and Fees Reversal
+I was wrongly charged last month and need those fees reversed immediately.,Charges and Fees Reversal
+Do not reverse any charges for me.,Charges and Fees Reversal
+plese reverce chrges asap.,Charges and Fees Reversal
+I want to check the delivery status of my card.,Delivery Status
+Show card delivery status now.,Delivery Status
+Hello! Can you confirm if my card has been delivered?,Delivery Status
+I applied for a new card last week and need to know if it is dispatched.,Delivery Status
+Do not check my card delivery status anymore.,Delivery Status
+plese chek crd delivry staus.,Delivery Status
+I want to know the process for submitting a dispute form.,Dispute Transactions
+Show dispute form process now.,Dispute Transactions
+Hi! Can you guide me on how to fill the dispute form?,Dispute Transactions
+I had an unauthorized transaction and need to complete the dispute form immediately.,Dispute Transactions
+Do not share any dispute form details with me.,Dispute Transactions
+plese snd disput form proces.,Dispute Transactions
+I want to check the status of my utility bill payment.,Funds Transfer Status
+Show utility bill payment status now.,Funds Transfer Status
+Hello! Can you confirm if my utility bill payment was successful?,Funds Transfer Status
+I paid my electricity bill yesterday and need to confirm if it is processed.,Funds Transfer Status
+Do not check any utility bill payment status for me.,Funds Transfer Status
+plese chek utlity bil staus.,Funds Transfer Status
+I want to check the status of my recent fund transfer.,Funds Transfer Status
+Show fund transfer status now.,Funds Transfer Status
+Hi! Can you confirm if my fund transfer was completed?,Funds Transfer Status
+I transferred money yesterday and need to know if it is credited.,Funds Transfer Status
+Do not check any fund transfer status for me.,Funds Transfer Status
+plese chek fund tranfer staus.,Funds Transfer Status
+I want to view my account details.,Get Account Information
+Show account details now.,Get Account Information
+Hello! Can you provide my account details?,Get Account Information
+I need to check my account details before applying for a loan.,Get Account Information
+Do not show any account details for me.,Get Account Information
+plese shw acount detals.,Get Account Information
+I want to check my account balance.,Get Balance
+Show balance now.,Get Balance
+Hi! Can you tell me my current account balance?,Get Balance
+I need to confirm my balance before making a big purchase.,Get Balance
+Do not check my balance anymore.,Get Balance
+plese chek balnce.,Get Balance
+I want to see my credit card dues,Get Balance
+What is my credit card outstanding amount?,Get Balance
+What are my credit card dues to be paid?,Get Balance
+show my credit card pending amount.,Get Balance
+"Hi, can you tell me my credit card dues?",Get Balance
+I need to know the amount I owe on my credit card before payment.,Get Balance
+I don’t want to check my credit card dues right now.,Get Balance
+Pls shw me my crdit card duz.,Get Balance
+I need a paper statement for my account.,Get Paper Statement
+Send paper statement.,Get Paper Statement
+Hi! Could you mail me my account statement?,Get Paper Statement
+I am applying for a loan and need a physical statement for verification.,Get Paper Statement
+"Do not send the paper statement, I will use the digital one.",Get Paper Statement
+plese snd papr statemnt,Get Paper Statement
+I want to subscribe to e-statements.,Get Paper Statement
+Enable e-statement service.,Get Paper Statement
+Hello! Please help me switch to e-statements.,Get Paper Statement
+I am tired of paper clutter and want to go digital with my statements.,Get Paper Statement
+"Do not activate e-statements yet, keep sending paper ones.",Get Paper Statement
+plese subscibe e-statmnt,Get Paper Statement
+I need to download my latest account statement.,Get Paper Statement
+Download statement now.,Get Paper Statement
+Hi there! Can you help me view my statement online?,Get Paper Statement
+I am filing taxes and need to download last month statement urgently.,Get Paper Statement
+"Do not download the statement, I already have it.",Get Paper Statement
+plese downlod statemnt,Get Paper Statement
+Please provide my loan statement.,Get Paper Statement
+Get loan statement now.,Get Paper Statement
+Hello! Can you send me my loan statement details?,Get Paper Statement
+I need my loan statement for refinancing purposes.,Get Paper Statement
+"Do not send the loan statement anymore, I have got it.",Get Paper Statement
+plese snd lon statmnt,Get Paper Statement
+Show me my recent transactions.,Get Transactions
+Fetch transactions now.,Get Transactions
+Hi! Can you give me a list of my last transactions?,Get Transactions
+I lost track of my spending and need to review recent transactions.,Get Transactions
+"Do not show transactions anymore, I will check later.",Get Transactions
+plese shw trnsctions,Get Transactions
+I want to settle my loan completely.,Loan Settlement
+Settle loan now.,Loan Settlement
+Hello! Can you guide me through loan settlement?,Loan Settlement
+I am closing my account and need to settle the loan today.,Loan Settlement
+"Do not settle the loan, I need more time.",Loan Settlement
+plese setle lon,Loan Settlement
+I need to change my card spending limit.,Manage Limits
+Update card limit now.,Manage Limits
+Hi! Can you help me modify my card limit?,Manage Limits
+I am traveling abroad and need to increase my card limit temporarily.,Manage Limits
+"Do not change the card limit now, keep it as is.",Manage Limits
+plese modfy crd limt,Manage Limits
+I want to increase my fund transfer limit temporarily.,Manage Limits
+Raise transfer limit now.,Manage Limits
+Hello! Can you help me boost my transfer limit for today?,Manage Limits
+I need to send a large payment and require a temporary limit increase.,Manage Limits
+"Do not increase the limit anymore, I will manage with the current one.",Manage Limits
+plese incrse tranfer limt,Manage Limits
+I want to open a new account.,Open Account
+Open account now.,Open Account
+Hi! Can you assist me in applying for a new account?,Open Account
+I am starting a business and need a new account for transactions.,Open Account
+"Do not open the account yet, I need to confirm details.",Open Account
+plese opn acount,Open Account
+I want to apply for a loan top-up.,Open Account
+Start loan top-up process now.,Open Account
+Hello! Can you help me with a loan top-up?,Open Account
+I need extra funds for home renovation and want to top up my loan.,Open Account
+"Do not process the loan top-up anymore, I have changed my mind.",Open Account
+plese aplly lon topup,Open Account
+I need to postpone my loan payment.,Payment Deferrals
+Delay loan payment now.,Payment Deferrals
+Hi! Can you assist me in deferring my loan installment?,Payment Deferrals
+I lost my job recently and need to postpone my loan payments for a few months.,Payment Deferrals
+"Do not defer the payment anymore, I will pay on time.",Payment Deferrals
+plese postpond lon pymnt,Payment Deferrals
+I want to reset my card PIN.,PIN Reset
+Reset PIN now.,PIN Reset
+Hello! Can you help me generate a new PIN?,PIN Reset
+I forgot my PIN and need to reset it before traveling tomorrow.,PIN Reset
+"Do not reset the PIN now, I remembered it.",PIN Reset
+plese resset pin,PIN Reset
+I need to reactivate my dormant account.,Reactivate Dormant Account
+Reactivate dormant account now.,Reactivate Dormant Account
+Hi! Can you assist me in reactivating my old account?,Reactivate Dormant Account
+I have not used my account for years and need it active for upcoming transactions.,Reactivate Dormant Account
+"Do not reactivate the account yet, I will confirm later.",Reactivate Dormant Account
+plese reactivte dormnt acount,Reactivate Dormant Account
+Why was my transaction declined?,Reason for Transaction Decline
+Show decline reason now.,Reason for Transaction Decline
+Hello! Can you tell me why my payment did not go through?,Reason for Transaction Decline
+"My card payment failed at a store, and I need to know the reason urgently.",Reason for Transaction Decline
+"Do not check the decline reason anymore, I figured it out.",Reason for Transaction Decline
+plese shw declne reson,Reason for Transaction Decline
+I want a refund of the excess balance on my credit card.,Refund Excess Balance from Credit Card
+Refund extra balance now.,Refund Excess Balance from Credit Card
+Hi! Can you help me get back the extra money from my credit card?,Refund Excess Balance from Credit Card
+I overpaid my credit card bill and need the excess amount refunded.,Refund Excess Balance from Credit Card
+"Do not process the refund now, I will use the balance later.",Refund Excess Balance from Credit Card
+plese refnd exces balnce,Refund Excess Balance from Credit Card
+I need a new cheque book.,Request Cheque Book
+Issue cheque book now.,Request Cheque Book
+Hello! Can you send me a fresh cheque book?,Request Cheque Book
+I have run out of cheques and need a new book for upcoming payments.,Request Cheque Book
+"Do not issue the cheque book now, I will request later.",Request Cheque Book
+plese isue chek bok,Request Cheque Book
+I want to reset my account password.,Reset Password
+Reset password now.,Reset Password
+Hi! Can you help me change my password?,Reset Password
+I forgot my login password and need to reset it immediately.,Reset Password
+"Do not reset the password now, I remembered it.",Reset Password
+plese resset pasword,Reset Password
+I want to set up autopay for my credit card bill.,Transfers and Payments
+Enable autopay now.,Transfers and Payments
+Hello! Can you assist me in setting up automatic payments for my card?,Transfers and Payments
+I travel frequently and want autopay enabled to avoid late fees.,Transfers and Payments
+"Do not enable autopay yet, I will confirm later.",Transfers and Payments
+plese set autopay crdit bil,Transfers and Payments
+Activate autopay for my credit card.,Transfers and Payments
+Turn on autopay now.,Transfers and Payments
+Hi! Can you help me enable autopay for my card?,Transfers and Payments
+I missed a payment last month and want autopay to avoid future delays.,Transfers and Payments
+"Do not activate autopay now, I will do it later.",Transfers and Payments
+plese actvate autpay crdit crd,Transfers and Payments
+I want to transfer funds to another account.,Transfers and Payments
+Transfer money now.,Transfers and Payments
+Hello! Can you help me send money to my friend?,Transfers and Payments
+"I need to pay my rent today, so please transfer the funds immediately.",Transfers and Payments
+"Do not transfer the money now, I will do it later.",Transfers and Payments
+plese tranfer fundz,Transfers and Payments
+I need to update my travel details.,Travel Notification
+Add travel update now.,Travel Notification
+Hi! Can you note my upcoming travel plans?,Travel Notification
+I am flying abroad next week and need to update my travel info for security.,Travel Notification
+"Do not update my travel details now, plans have changed.",Travel Notification
+plese updat travl info,Travel Notification
+I want to reactivate my mobile banking account.,Unlock Home Banking
+Unlock home banking now.,Unlock Home Banking
+Hello! Can you help me restore access to my account?,Unlock Home Banking
+I was locked out after multiple failed attempts and need access urgently.,Unlock Home Banking
+"Do not unlock the account yet, I will confirm later.",Unlock Home Banking
+plese unlok hom bankng,Unlock Home Banking
+I need to update my mobile number.,Update Information
+Change phone number now.,Update Information
+Hi! Can you help me update my contact number?,Update Information
+I switched carriers and need to update my mobile number for OTPs.,Update Information
+"Do not update the number now, I will keep the old one.",Update Information
+plese updat moble numbr,Update Information
+I want to update my profile details.,Update Information
+Update profile now.,Update Information
+Hello! Can you assist me in changing my profile info?,Update Information
+I moved to a new address and need to update my profile immediately.,Update Information
+"Do not update my profile now, I will do it later.",Update Information
+plese updat profle detals,Update Information
+what is the status of my new account application?,View Account or Card Status
+Check account status now.,View Account or Card Status
+Hi! Can you tell me if my new account is active?,View Account or Card Status
+I applied for a new account last week and need to confirm its status.,View Account or Card Status
+"Do not check the account status now, I already got confirmation.",View Account or Card Status
+plese chek acount staus,View Account or Card Status
+I want to know if my account closure request is complete.,View Account or Card Status
+Check closure status now.,View Account or Card Status
+Hello! Can you confirm if my account has been closed?,View Account or Card Status
+I submitted a closure request two days ago and need an update.,View Account or Card Status
+"Do not check the closure status now, I will wait for the email.",View Account or Card Status
+plese chek closur staus,View Account or Card Status
+what is the status of my card cancellation?,View Account or Card Status
+Check card cancellation now.,View Account or Card Status
+Hi! Can you confirm if my card has been canceled?,View Account or Card Status
+I requested card cancellation yesterday and need to know if it is done.,View Account or Card Status
+"Do not check the cancellation status now, I will wait for confirmation.",View Account or Card Status
+plese chek card canclation,View Account or Card Status
+Show me my standing instructions.,View Payees
+View payees now.,View Payees
+Hello! Can you display my saved payees?,View Payees
+I need to review my standing instructions before making a payment.,View Payees
+"Do not show the payees now, I will check later.",View Payees
+plese view payees,View Payees
+Who is my Relationship manager,RM Details
+How do I contact my Relationship Manager,RM Details
+Please give me my RM details.,RM Details
+Show RM details,RM Details
+"Hi, can you tell me who my relationship manager is?",RM Details
+I need to know my RM’s name and contact number urgently.,RM Details
+I don’t need RM details right now.,RM Details
+Pls shw me RM detals.,RM Details
+I want to talk to an agent,Agent Transfer
+Transfer to an agent,Agent Transfer
+"Hey, I need to talk to a live person",Agent Transfer
+I’ve tried solving this but I need to talk to a human agent now,Agent Transfer
+I don’t want help agent,Agent Transfer
+Plz cnnect me to a humann ajent,Agent Transfer
+Close my ongoing credit card deals,Close Active Deals
+Cancel deals on my card,Close Active Deals
+"Hello, Terminate the ongoing deals agreement",Close Active Deals
+Close my ongoing deals because I have already paid the amount,Close Active Deals
+I don’t want this deals on my card anymore,Close Active Deals
+Clse my actve deel right now,Close Active Deals
+What is fall below fee?,Charges and Fees Inquiry
+When is fall below fee charged?,Charges and Fees Inquiry
+What is the min balance to maintain to avoid fall below fee?,Charges and Fees Inquiry
+show fall below fee,Charges and Fees Inquiry
+How much is the Fall Below Fee or Non-Maintenance Fee?,Charges and Fees Inquiry
+How much is fall below fee amount?,Charges and Fees Inquiry
+why am i charged 21 dirham?,Charges and Fees Inquiry
+"Hi, What is this 21 AED charge on my account?",Charges and Fees Inquiry
+What happens if my account remains below the minimum balance for an extended period?,Charges and Fees Inquiry
+I don’t want to check fees right now.,Charges and Fees Inquiry
+Pls hlp with fal belw fee.,Charges and Fees Inquiry
+you are bad bot,subtaskTalktoAgent
+You are useless,subtaskTalktoAgent
+"Hi, you are not helping me here. My issue is different",subtaskTalktoAgent
+You are useless and wasting my time,subtaskTalktoAgent
+You are not helpful at all,subtaskTalktoAgent
+That was a stupd sugestion,subtaskTalktoAgent

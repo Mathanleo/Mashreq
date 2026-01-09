@@ -1,0 +1,208 @@
+utterance,expected_intent
+I have 2 accounts I want to remove one,Account Closure
+If I want to close my bank account,Account Closure
+"I wqnt to close my account,how can do it.?",Account Closure
+"Hello, I would like to close my account. Please let me know the steps to complete the process. Thank you.",Account Closure
+"Hello, I would like to close my account. Could you please assist me with the process?",Account Closure
+"Hello, I would like to close my account. Could you please assist me with the process?",Account Closure
+I want to close my account but it can't process because of blocked amount what should I do,Account Closure
+I need to close my mashreq bank account. may I know the procedure for that?,Account Closure
+Please advise me for the account closure,Account Closure
+My request to cancel my account didn't happen,Account Closure
+What about my cancellation of my account,Account Closure
+"Good morning mam
+Please cancel my account with mashreq bank today",Account Closure
+I don't have any problem to close this account ?,Account Closure
+"Close the account necessary, i don't want it",Account Closure
+"”Hi, I would like to close my Mashreq Neo account as I'm leaving the UAE for a long period of time. Please guide me through the process",Account Closure
+I would like to close my account. Please guide me through the process.,Account Closure
+I would like to close my mashreq  account. Please guide me through the process.,Account Closure
+I would like to close my Mbank account. Please guide me through the process.,Account Closure
+I want to close my bank account. Connect me to a human agent.,Account Closure
+I want to close the account. I will pay balance amount . Let me know how much and please close it,Account Closure
+I just want to make a clear clarity about my account closure,Account Closure
+I have two accounts on Mashreq primary is neo Current and secondary is easy saver account i want to close primary account and i want to keep only easy saver account,Account Closure
+I want to cancel the account but not now,Account Closure
+if i delete my neo current account will my easy saved account get deleted as well?,Account Closure
+but i want to keep my easy saver account open,Account Closure
+can i delete my neo current account or will my easy saver account get deleted as well,Account Closure
+Hii . I need to cancel my account. Can i do it from app itself,Account Closure
+I want close my account because i will not pay uncollected charges,Account Closure
+"HI
+I WANT TO CLOSE MY ACCOUNT
+BUT ITS NOT POSSIBLE KINDLY HELP ME TO CLOSE",Account Closure
+I will close this account and will not use your bank if the problem will not solved,Account Closure
+"After that, can I close the account in the fourth for the fifth or the sixth month?Or do I need to continue",Account Closure
+"Dear Mashreq Customer Care,
+
+I had requested cancellation of my Mashreq credit card through the mobile app. I have now left the UAE permanently. Please confirm the card is cancelled and send me a clearance confirmation letter by email.
+
+Card last 4 digits: 8672
+Name: Mohan Jayaraman
+
+My UAE mobile number is inactive, so please contact me only by email.
+
+Despite my earlier cancellation and full settlement, an annual fee has been wrongly charged. Kindly reverse this fee, confirm the card closure without further charges, and issue the clearance letter urgently.
+
+Thank you for your prompt support.
+
+Sincerely,
+Mohan Jayaraman",Account Closure
+"Dear Mashreq Customer Care,
+
+I had requested cancellation of my Mashreq credit card through the mobile app. I have now left the UAE permanently. Please confirm the card is cancelled and send me a clearance confirmation letter by email.
+
+Card last 4 digits: 8672
+Name: Mohan Jayaraman
+
+My UAE mobile number is inactive, so please contact me only by email.
+
+Despite my earlier cancellation and full settlement, an annual fee has been wrongly charged. Kindly reverse this fee, confirm the card closure without further charges, and issue the clearance letter urgently.
+
+Thank you for your prompt support.
+
+Sincerely,
+Mohan Jayaraman",Account Closure
+"Dear Mashreq Customer Care,
+
+I had requested cancellation of my Mashreq credit card through the mobile app. I have now left the UAE permanently. Please confirm the card is cancelled and send me a clearance confirmation letter by email.
+
+Card last 4 digits: 8672
+Name: Mohan Jayaraman
+
+My UAE mobile number is inactive, so please contact me only by email.
+
+Despite my earlier cancellation and full settlement, an annual fee has been wrongly charged. Kindly reverse this fee, confirm the card closure without further charges, and issue the clearance letter urgently.
+
+Thank you for your prompt support.
+
+Sincerely,
+Mohan Jayaraman",Account Closure
+I would like to close my account permanently and that is not possible please help close my account permanently and as soon as possible and thank you,Account Closure
+Otherwise I will cancel this account,Account Closure
+"My account still has funds in it, but I want to close it",Account Closure
+I need to close account can I tell me the procedure please,Account Closure
+Issue with closure of current debit account,Account Closure
+Why I can't close my account now,Account Closure
+Remove insurance Sarvice from account,Account Closure
+"I am not able close my account Showing technical 
+Error",Account Closure
+Why I can not close my this account,Account Closure
+Why I can't close my this account,Account Closure
+Hi I would like to stop being a client,Account Closure
+I want to close my account there is a two account I want to close two of them,Account Closure
+I am Leaving uae and residence is cancelled. I want to keep my account open.,Account Closure
+"I have two account. I have a noon savings and a Neo current account, can I close the current account and only use the noon savings account",Account Closure
+I want to cancel this account and remove it from under my name,Account Closure
+I have some questions about Closing Bank Account. And Other Fees,Account Closure
+I want to understand what kind of detail I should provide before transferring,Amend Fund Transfer
+"I am transferring an amount, but the receiver has changed.",Amend Fund Transfer
+I change my phone now i want to transfer money gor new beneficiary but i cant do it with app,Amend Fund Transfer
+Hello I change money to my us account to my Aed account and I don't see my money in the account,Amend Fund Transfer
+Here's how I'll send you the transfer information.,Amend Fund Transfer
+I sent fund to a wrong person that i dont know. can you help me to revert that money,Amend Fund Transfer
+I would like to ask if i mistakenly tranfer money to someone that i dont know,Amend Fund Transfer
+Hi sir I transferred some money wrong beneficiary,Amend Fund Transfer
+Recently I transfer money to account but the bank name was wrong,Amend Fund Transfer
+Bank wrongly transferred funds to another account pl transfer back to my account,Amend Fund Transfer
+Hello can I ask for assistance I just want to update something about my money,Amend Fund Transfer
+"Its not a failed transaction, it was a failed money transfer",Amend Fund Transfer
+"I found some transactions amount are  incorrect. Please check and confirm the details of these transactions.I would appreciate your help in correcting balance. 
+Thank you,
+HNIN",Amend Fund Transfer
+"i just want to be clear that i send the amount of 200 dirhams in wrong account,how would i contact to return it back",Amend Fund Transfer
+Need to change my statement date and billing date and payment date,Amend Fund Transfer
+The funds was transferred and rejected by the other bank so is it not supposed to come back into my account,Amend Fund Transfer
+A transfer made to wrong beneficiary SR 1200?dated 21 October pl transfer back funds to my account,Amend Fund Transfer
+Can u help me to change the bank name of the new beneficiary I put,Amend Fund Transfer
+My friend send money in mashreq account but it went wrongly to First Abu Dhabi bank account,Amend Fund Transfer
+I do some mistake can you helpe i transfer to another wrong  account to cash,Amend Fund Transfer
+Yes need to understand why amount was not credited fully,Amend Fund Transfer
+Money Transfer without permission / to the wrong beneficiary,Amend Fund Transfer
+"Hii 
+i am doing by mistake 2 transfer Wrong account.. i want back my money can you help me",Amend Fund Transfer
+I send accidentally my fund to different account. I want to take back that,Amend Fund Transfer
+I send accidentally my fund to different accounts. I want to take back that,Amend Fund Transfer
+I send accidentally my fund to different account I want to take back that,Amend Fund Transfer
+I send accidentally my fund to different account I want to take back that,Amend Fund Transfer
+I send accidentally my fund to different account I want to take back that,Amend Fund Transfer
+I send accidentally my fund to different account I want to take back that,Amend Fund Transfer
+I send accidentally my fund to different account I want to take back that,Amend Fund Transfer
+I send accidentally my fund  to different account,Amend Fund Transfer
+I sent some money accidentally to different account,Amend Fund Transfer
+I will transfer fund in wrong account. Please suggest me how i take back,Amend Fund Transfer
+"I accidentally send some money to 
+Different  account.",Amend Fund Transfer
+I transferred the money and didn't gagab for the person who sent it,Amend Fund Transfer
+I transferred the money and didn't gagab for the person who sent it,Amend Fund Transfer
+I have problem to send money anather account but not resive,Amend Fund Transfer
+"i didnt understand you, my issue rekated to wrong ammount showing in this app",Amend Fund Transfer
+I have transferred money to the wrong beneficiary so waiting for their confirmation,Amend Fund Transfer
+I have an amount that I transferred by mistake to Abu Dhabi Commercial Account,Amend Fund Transfer
+"I did a fine payment 
+But it was failed and my
+Money is hone",Amend Fund Transfer
+Last time i request about one wrong transaction but still i didn't receive my money,Amend Fund Transfer
+I received and email regarding a transfer with wrong amount,Amend Fund Transfer
+"From my personal account to my second account, I transferred money and you took them. Why?",Amend Fund Transfer
+033IPPD252246753 please recheck the referrence number and update about the amount,Amend Fund Transfer
+I mean this is my current account but I want to change this account for my salary transfer account,Amend Fund Transfer
+I just mentioned I had transferred an amount to the wrong account,Amend Fund Transfer
+I have done one purchased but its faild and my money stuck,Amend Fund Transfer
+Update for the release of my funds from my personal loan,Amend Fund Transfer
+"Seems like u don't seem to understand
+I have done a transfer to the wrong account",Amend Fund Transfer
+I mean I want to send money from other bank to my Mashreq credit card how I do that,Easy Cash
+I need to transfer money from other bank to my Mashreq credit card but there is no account number to send,Easy Cash
+Why I cannot make a cash advance on my credit card?,Easy Cash
+I am facing a problem transferring money from du Pay to my Mashreq Neo account. du Pay said everything is fine from their side.,Easy Cash
+Can someone send me money to my account without having my card delivered,Easy Cash
+i want to take information  about  cradit card loan so please  refrer wiyh agent,Easy Cash
+Ihave 300 in my card and iwant to transfer into my country currency but it's not accepting,Easy Cash
+Why due amount of my card I don't have any purchases,Easy Cash
+I want to ask if I can use this card to make payment of other credit card,Easy Cash
+How i can but money in my account in euro,Easy Cash
+I need to make a-loan application but its say that you can't because theres credit card request is opened,Easy Cash
+If I apply to a new card what about my money Inside the card ?,Easy Cash
+Why are they asking me to register again the card but I have money inside the card ?,Easy Cash
+Can someone transfer me money of I have limit in my card?,Easy Cash
+"Hello, I need to either transfer money from my credit card to my current bank account or transfer money via iban to the other account directly",Easy Cash
+"I do have an active card in my profile, and there is money on my account. 
+Could you please check again? I need to withdraw AED 22,000 from the ATM with my card ending in 3460. 
+Thank you.",Easy Cash
+"Hello. I need to withdraw AED 22,000 in cash from an ATM today, using my card ending 3460. Could you please tell me what my daily ATM cash withdrawal limit is and if I can withdraw this amount now? If a limit increase or unlock is required, please activate it. Thank you.",Easy Cash
+I want to transfer money from other bank to Mashreq bank so it is free or I need to pay?,Easy Cash
+I want to get loan on card with zero processing fee and less interest for less than 30 days,Easy Cash
+"Can I withdraw cash from atm or not 
+From this card?",Easy Cash
+Please help me regarding with my card I can't transact widrawals,Easy Cash
+May i know your procedure in instant cash?,Easy Cash
+Im trying to withdraw money from capital.com to my card but it's declining and showing that its declined by my card issuer,Easy Cash
+"I try to apply for flash cash ... But it's showing you have already an application for credit card .
+ But iam not apply for any",Easy Cash
+Credit card and account and loan many i need to check,Easy Cash
+I have payment in my card its not working or atm my Id card is rxpire i need cash urjnet,Easy Cash
+But I have only credit card from Mashreq Bank but no account so can I withdrw money,Easy Cash
+Can I withdraw cash from my credit card and how much I can withdraw now,Easy Cash
+Can I withdraw money from any exchange or from outside the country?,Easy Cash
+"I paid to my credit card more than outstanding balance, I need withdraw that money,how to do",Easy Cash
+Is it possible for someone with no salary certificate to get a credit card from mashreq bank?,Easy Cash
+How can I get cash transfer using my credit card limit?,Easy Cash
+I tried easy cash option but it's does not show anything,Easy Cash
+I transferred money to CBD credit card but my mistake I entered wrong card number last,Easy Cash
+Of i add cash to my credit card before statement will the money will be deducted from my statement amount,Easy Cash
+Still showing application in quick cash option,Easy Cash
+I want to know update of instant cash request,Easy Cash
+We made payment to FTA twice for one transaction. One time we made through Mashreq credit card and FTA has not utilised that amount.,Easy Cash
+I check on that but no amount showing in easy cash option,Easy Cash
+I want to avail instant cash but there is no loan amount showing,Easy Cash
+I have a problem with my card. When take a withdraw for my money my card didn't come out,Easy Cash
+I recently closed my creditsl card. I want to check if there was any excess amount ?,Easy Cash
+How do I transfer money from my aani payment account to my bank card,Easy Cash
+"I will give another bank account reference , you have to transfer the amount to that account, because I paid credit card amount before but accidentally refunded to the same account, please arrange the solution",Easy Cash
+"Hello, an amount has been withdrawn from my card that I had paid before",Easy Cash
+How long it's taking to receive the money pay later,Easy Cash
+My payment for cbd cc not done.money debit from my account already,Easy Cash
+I selected instant cash but it was unavailable and no information mentioned to select?,Easy Cash
+"I have cash back ard, how to apply for quick cash loan?",Easy Cash
+I need someone to talk about my lost money,Easy Cash
